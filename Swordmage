@@ -1,0 +1,1491 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Warlord and Swordmage",
+				"abbreviation": "WLaSM",
+				"full": "Swordmage",
+				"url": "https://drive.google.com/file/d/1SeIDUQ2atty6nKKgnbgiwQi2XPg4HPKA/view",
+				"authors": [
+					"u/fanatic666"
+				],
+				"convertedBy": [
+					"VitaminPillB"
+				]
+			}
+		],
+		"dateAdded": 1580934477,
+		"dateLastModified": 1585045164
+	},
+	"class": [
+		{
+			"name": "Swordmage",
+			"source": "Warlord and Swordmage",
+			"fluff": [
+				{
+					"type": "section",
+					"name": "Swordmage",
+					"entries": [
+						"The halfling thief looks around as an ogre finds its hiding spot. As the ogre slams its club down, a swordsman appears with a flash of blue light to block the club with his glowing sword. Between him and his halfling friend, they easily dispatch the suprised ogre.",
+						"The might dragon breathes fire at the intruder, but the lightly armored elf smiles unconcerned. She strides through the fire, a redish, magical barrier protecting her from the worst of the flames. The shocked dragon has little time to react to the impossibly alive elf before her twin blades start cutting through its scales.",
+						"As the bandit's blade threatens to cut the pale warrior in half, the warrior simply twists his hand and mutters an arcane word of power. The bandit cries out in pain as his sword arm suddenly stops in place. With a chilling smile, the warrior plunges his blade into the bandit savoring the warmth of vitality gained from the bandit's blood.",
+						"All these magical warriors are swordmages, combatants that blend magic and martial might. Whether a swormdage relies on necromancy, elemental manipulation, abjuration, or many other types of magic. Regardless of a swordmage's magical specialization, magic is crucial to a swordmage. Unlike more mundane warriors, swordmages rely on magic to boost their defensive and offensive capabilities.",
+						{
+							"type": "entries",
+							"name": "Magical Warriors",
+							"entries": [
+								"Swordmages spend equal time learning magic as they do practicing their bladework creating an unique fighting style. Although all swordmages rely on defensive and offensive magic, they often specialize in certain types of magic similiarly to a wizard. Crimson Knights focus on the application of necromantic blood magic while Guardians specialize on abjuration magic to keep themselves and their friends safe.
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bonding to a Weapon",
+							"entries": [
+              "Besides magic, swordmages also bond with a particularweapon to provide a conduit for their arcane prowess. As their bonded weapon is not only their tool in combat, but also a source of magic, swordmages normally treat their weapon with the the utmost care. Choosing your bonded weapon is an important step that is often dictated by their weapon training or personal style. Although the name implies sword wielders, some swordmages choose other weapons such as axes, spears, or flails."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Swordmage",
+							"entries": [
+								"As you build your swordmage, carefully consider three elements of your character's background: Where were they trained, what magic interests them the most, and what weapon will they bond with? Some large cities, especially among more magical cultures such as the elves, might have institutions that train aspiring swordmages. Perhaps you were a trained soldier chosen for your intelligence to learn magic to help your cause win a war. Maybe you apprenticed with a swordmage mentor who taught you all they knew and now you are striking out on your own.",
+								"Furthermore, how does your swordmage fight? With dual blades or a large greatsword meant to intimade your enemies? The weapon or weapons you bond with is an important choice. Was the weapon a family heirloom or perhaps passed down from the master that taught you everything you know? Or did you earn this weapon in combat and it represents your first victory?"
+							]
+						}
+					]
+				}
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"con",
+				"int"
+			],
+			"spellcastingAbility": "int",
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"arcana",
+								"history",
+								"insight",
+								"investigation"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield} or (b) two {@filter martial weapon|items|source=phb|category=basic|type=martial weapon},
+					"(a) {@item scale mail|phb} or (b) {@item leather armor|phb}",
+					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}"
+				],
+				"goldAlternative": "{@dice 5d4×10|5d4 × 10|Starting Gold}"
+			},
+			"multiclassing": {
+				"requirements": {
+					"int": 13,
+					"or": [
+						{
+							"str": 13,
+							"dex": 13
+						}
+					]
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium"
+            "shields"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Aegis Uses"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							"Unlimited"
+						]
+					]
+				},
+        	{
+					"colLabels": [
+						"Cantrips"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Swordmage}",
+						"{@filter 2nd|spells|level=2|class=Swordmage}",
+						"{@filter 3rd|spells|level=3|class=Swordmage}",
+						"{@filter 4th|spells|level=4|class=Swordmage}",
+						"{@filter 5th|spells|level=5|class=Swordmage}"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				[
+					{
+						"name": "Aegis",
+						"entries": [
+							"At 1st level, you can channel arcane power to either ward yourself from damage or empower your weapon strikes. As a bonus action, you can choose to activate your Aegis on yourself. The Aegis lasts for 1 minute or until you activate Aegis again or you end this effect on your turn as part of any other action. If you fall unconscious, your Aegis ends.",
+							"When you activate your aegis, you can choose from two types:",
+							"· Aegis of Shielding: You grant yourself a magical +1 to your armor class.",
+              "· Aegis of Assault: You grant yourself a magical +1 to all your attack rolls.",
+              "The magical bonus of your Aegis increases to +2 at 9thlevel, and +3 at 17th level.",
+ 							"Once you have used Aegis the number of times shown for your swordmage level in the Aegis Uses column of the Swordmage table, you must finish a long rest before you can use your Aegis again.",
+              "If you have your Aegis activated, you can spend your bonus action to switch your Aegis from Assault to Shielding or vice versa. Switching your type of Aegis does not end your current Aegis."
+						]
+					},
+					{
+						"name": "Weapon Bond",
+						"entries": [
+							"At 1st level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.",
+              "Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.",
+							"You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two."
+						]
+					}
+          {
+             "name": "Spellcasting",
+             "entries": [
+             "At 1st level, you have learned to use your magical studies to cast spells, much as a wizard does. You learn two cantrips from the swordmage spell list. See Spells Rules for the general rules of spellcasting and the Spells Listing for the swordmage spell list at the end of this document."
+             {
+								"type": "entries",
+								"name": "Preparing and Casting Spells",
+								"entries": [
+									"The Swordmage table shows how many spell slots you have to cast your swordmage spells. To cast one of your swordmage spells of 1st level or higher, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.",
+                  "You prepare the list of swordmage spells that are available for you to cast, choosing from the swordmage spell list. When you do so, choose a number of swordmage spells equal to your Intelligence modifier + half your swordmage level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
+                  "You can change your list of prepared spells when you finish a long rest. Preparing a new list of swordmage spells requires time spent studying: at least 1 minute per spell level for each spell on your list."
+                       ]
+							},
+              {
+                 "type": "entries",
+                 "name": "Spellcasting Ability",
+                 "entries": [
+                   "Intelligence is your spellcasting ability for your swordmage spells, since their magic reflects their arcane studies. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a swordmage spell you cast and when making an attack roll with one."
+                   							{
+										"type": "abilityDc",
+										"name": "Spell",
+										"attributes": [
+											"int"
+										]
+									},
+									{
+										"type": "abilityAttackMod",
+										"name": "Spell",
+										"attributes": [
+											"int"
+										]
+									},
+                  {
+                     "type": "entries",
+                     "name": "Spellcasting Focus",
+                     "enrties": [
+                     "Spellcasting Focus: You can use your bonded weapon as your spellcasting focus for swordmage spells."
+                     ]
+                  }
+				       ],
+				[
+					{
+						"name": "FIghting Style",
+						"entries": [
+							"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+							{
+								"type": "options",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Defense",
+										"entries": [
+											"While you are wearing armor, you gain a +1 bonus to AC."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Dueling",
+										"entries": [
+											"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Great Weapon Fighting",
+										"entries": [
+											"When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the twohanded or versatile property for you to gain this benefit."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Protection",
+										"entries": [
+											"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+										]
+									}
+								  {
+                    "type": "entries",
+                    "name": "Two Weapon Fighting",
+                    "entries": [
+                      "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+                      ]
+                   }
+                ]
+							}
+						]
+					},
+					{
+						"name": "Enspell Blade",
+						"entries": [
+							"Starting at 2nd level, after casting a spell of 1st level or higher, you siphon the residual energy from the spell onto your weapon. Until the end of your next turn, your next weapon attack that hits deals additional force damage. The extra damage is 1d6 for a 1st-level spell slot, plus 1d6 for each spell level higher than 1st, to a maximum of 4d6.",
+						]
+					}
+				],
+				[
+					{
+						"name": "Weapon Lore",
+						"entries": [
+							"At 3rd level, your studies and magical talents make you quick to remember arcane tools of battle. You have advantage on Intelligence checks to recall information on magical weapons and armor."
+						]
+					},
+					{
+						"name": "Swordmage Archetype",
+						"entries": [
+							"When you reach 3rd level, you choose a archetype that reflects your training: Crimson Knight, Duplicitist, Elementalist, Guardian, or Inquisitor. The details on the specific archetypes are at the end of this document. Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features also include archetype spells."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+					{
+						"name": "Blade Magic",
+						"entries": [
+							"Beginning at 5th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action. If you have the Two-Weapon Fighting Style, you can also make an additional additional weapon attack with your offhand weapon as part of your bonus action."
+						]
+					}
+				],
+				[
+					{
+						"name": "Aegis Reserves",
+						"entries": [
+							"When you reach 6th level, you can readily change your Aegis with your magic. When you cast a spell of 1st level or higher and have your Aegis activated, you can switch your Aegis type without spending a bonus action."
+						]
+					}
+				],
+				[
+					{
+						"name": "Swordmage Archetypee Feature",
+						"entries": [
+							"At 7th level, you gain a feature granted to you by your Swordmage Archetype."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+           {
+          "name": "Aegis Improvement",
+          "entries": [
+             "Your Aegis bonuses changes from +1 to +2."
+             ]
+          }   
+        ],
+				[
+					{
+						"name": "Mental Fortitude",
+						"entries": [
+							"Beginning at 10th level, you gain a bonus to concentration checks equal to your Intelligence modifier."
+						]
+					}
+				],
+				[
+					{
+						"name": "Greater Blade Magic",
+						"entries": [
+							"Starting at 11th level, when you use your action to cast a spell, you can make one weapon attack as a bonus action. If you have the Two-Weapon Fighting Style, you can also make an additional additional weapon attack with your offhand weapon as part of your bonus action."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[],
+				[
+					{
+						"name": "Spell Ward",
+						"entries": [
+							"By 14th level, your arcane studies have trained you to defend yourself against enemy magic. You have advantage on saving throws against spells and other magical effects."
+						]
+					}
+				],
+				[
+					{
+						"name": "Swordmage Archetype Feature",
+						"entries": [
+							"At 15th level, you gain a feature granted to you by your Swordmage Archetype."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+          {
+            "name": "Aegis Improvement",
+            "entries": [
+               "Your Aegis bonuses goes from +2 to +3."
+               ]
+           }
+        ],
+				[
+					{
+						"name": "Arcane Leap",
+						"entries": [
+							"Beginning at 18th level, when you cast a swordmage spell of 1st level or higher, you can teleport up to 30 feet to an unoccupied space that you can see."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+					{
+						"name": "Swordmage Archetype Feature",
+						"entries": [
+							"At 20th level, you gain a feature granted to you by your Swordmage Archetype."
+						],
+						"gainSubclassFeature": true
+					}
+				]
+			],
+			"subclassTitle": "Swordmage Archetype",
+			"subclasses": [
+				{
+					"name": "Crimson Knight",
+					"source": "Warlord and Swordmage",
+					"shortName": "Crimson Knight",
+					"subclassFeatures": [
+						[
+							{
+                "By becoming a Crimson Knight, you focus on necromancy, specifically the rare art of blood magic. Crimson Knights are often feared for their dark magic but not all these swordmages are necessarily evil. Some turn to blood magic to aid them in stopping greater evils, while other Blood Knights revel in their power over others.",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Aegis Empowerment",
+										"entries": [
+											"When you take this archetype at 3rd level, you enhance your Aegis abilities.",
+                      "· Aegis of Shielding: While this Aegis is active, when you regain hit points or gain temporary hit points, you gain extra points equal to your Intelligence modifier.",
+                      "· Aegis of Assault: While this Aegis is active, your blood magic empowers your blade against heavily wounded foes. You have advantage on Attack rolls against any creature that has less than half of its hit point maximum."
+                      ]
+                  }
+                  {
+                     "type": "entries",
+                     "name": "Archetype Spells"
+                     "entries": [
+                       "You gain archetype spells at the swordmage level listed below. They are always prepared for you, and do not count against your prepared spell amounts."
+											{
+												"type": "table",
+												"caption": "Crimson Knight Spells",
+												"colLabels": [
+													"Swordmage Level",
+													"Spell"
+												],
+												"colStyles": [
+													"col-3 text-center",
+													"col-9"
+												],
+												"rows": [
+													[
+														"3rd",
+														"{@spell inflict wounds}",
+                            "{@spell ray of sickness}"
+													],
+													[
+														"5th",
+														"{@spell blindness/deafness}",
+                            "{@spell hold person}"
+													],
+													[
+														"9th",
+														"{@spell slow}",
+                            "{@spell vampiric touch}"
+													],
+													[
+														"13th",
+														"{@spell bleeding blade|WLaSM}",
+                            "{@spell blight}"
+													],
+													[
+														"17th",
+														"{@spell contagion}",
+                            "{@spell hold monster}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Blood Sense",
+										"entries": [
+											"At 3rd level, you can feel the flowing blood of nearby beings. As an action, you can open your awareness to detect living creature. Until the end of your next turn, you know the location of any living creature within 60 feet of you that is not behind total cover. You also know if a sensed creature is below its hit point maximum, or if the creature is diseased or poisoned.",
+											"You can use this feature a number of times equal to 1 + your Intelligence modifier. When you finish a Long Rest, you regain all expended uses."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Puppet",
+										"entries": [
+											"Starting at 7th level, your blood magic can temporarily control others. When you see a creature within 30 feet of you make an attack roll, skill check, or saving throw, you can use your reaction to impose disadvantage on the roll. You can do this a number of times per long rest equal to your Intelligence modifier (a minimum of once)."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Blood Recall",
+										"entries": [
+											"When you reach 15th level, you can to sacrifice some of your own vitality to recall magical energy. As an action, you recover spell slots that have a combined spell level up to half of your swordmage levels (rounded down). You lose a hit dice per spell slot level recovered. You can't use this feature again until you finish a long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Crimson Lord",
+										"entries": [
+											"Beginning at 20th level, you can spend an action to create a 30 ft. aura of necrotic energy around yourself that lasts for 1 minute. Any creature of your choosing that starts their turn inside your aura suffers necrotic damage equal to half your swordmage level. You regain hit points equal to half the damage taken. You can't use this feature again until you finish a long rest."
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+				{
+					"name": "Duplicitist",
+					"source": "Warlord and Swordmage",
+					"shortName": "Duplicitist",
+					"subclassFeatures": [
+						[
+							{
+                "By choosing the Duplicitist archetype, you weave illusions and enchantments to become an illusive threat. Duplicitist swordmages are often deadly assassions, admirers of the fey, cunning warriors, or mischief makers.",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Aegis Empowerment",
+										"entries": [
+											"When you take this archetype at 3rd level, you enhance your Aegis abilities.",
+                      "· Aegis of Shielding: While this aegis is active, illusory magic shrounds in a protective cover. When a creature makes an attack against you, you can spend your reaction to impose disadvantage on the attack roll.",
+                      "· Aegis of Assault: When you activate this Aegis, you become invisible until the end of your next turn. On later turns, you can spend a bonus action to become invisible again until the end of your next turn. The invisibility granted from your Aegis always ends early if you attack or cast a spell."
+                      ]
+                  }
+                  {
+                     "type": "entries",
+                     "name": "Archetype Spells"
+                     "entries": [
+                       "You gain archetype spells at the swordmage level listed below. They are always prepared for you, and do not count against your prepared spell amounts."
+											{
+												"type": "table",
+												"caption": "Duplicitist Spells",
+												"colLabels": [
+													"Swordmage Level",
+													"Spell"
+												],
+												"colStyles": [
+													"col-3 text-center",
+													"col-9"
+												],
+												"rows": [
+													[
+														"3rd",
+														"{@spell charm person}",
+                            "{@spell disguise self}"
+													],
+													[
+														"5th",
+														"{@spell invisibility}",
+                            "{@spell mirror image}"
+													],
+													[
+														"9th",
+														"{@spell hypnotic pattern}",
+                            "{@spell major image}"
+													],
+													[
+														"13th",
+														"{@spell charm monster}",
+                            "{@spell phantasmal killer}"
+													],
+													[
+														"17th",
+														"{@spell dominate person}",
+                            "{@spell synaptic static|xge}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Cunning Trickery",
+										"entries": [
+											"At 3rd level, you are a master at trickery. You know the {@spell minor illusion} cantrip and gain proficiency in either the {@skill deception} skill or {@skill stealth} skill."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Deceptive Decoy",
+										"entries": [
+											"Starting at 7th level, as a bonus action, you can turn invisible and send forth an illusory duplicate of yourself forward to an unoccupied spot within 30 feet of you. The perfect illusion of yourself and your invisibility lasts until the end of your next turn or if you attack or cast a spell. You can do use this feature a number of times per long rest equal to your Intelligence modifier (a minimum of once)."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Arcane Duplicity",
+										"entries": [
+											"When you reach 15th level, you can more easily manipulate your trickery magic. You can concentrate on two spells at once as long as both spells are either enchantment or illusion spells. When you make a Constitution saving throw to maintain your Concentration, the DC equals 10 + both spells’ levels combined, or half the damage you take, whichever number is higher. On a failure, you lose concentration on both spells. You can do this a number of times per long rest equal to your Intelligence modifier (a minimum of once)."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Double Trouble",
+										"entries": [
+											"At 20th level, you can spend your action to create a shadowy duplicate of yourself. It has shadowy versions of your equipment and is otherwise identifcal to you except it has half of your hit point maximum. The duplicate is friendly to you and creatures you designate. It obeys your spoken commands, moving and acting in accordance with your wishes and acting on your turn in combat. The shadowy duplicate fades away after 1 minute or once it falls to 0 hit points. Once you use this feature, you can't use it again until after a long rest."
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+				{
+					"name": "Elementalist",
+					"source": "Warlord and Swordmage",
+					"shortName": "Elementalist",
+					"subclassFeatures": [
+						[
+							{
+                "Swordmages of the Elementalist archetype specialize in magic originating from the elmental planes. By binding the primal power of the planes to themselves, these swordmages become mortal embodiements of the elements.",
+								"entries": [
+                  {
+                    "type": "entries",
+                    "name": "Elemental Attunement",
+                    "entries": [
+                      "At 3rd level, you choose to attune to one of the four great elemental planes: air, earth, fire, or water. At your option, you also gain minor physical attributes that are reminiscent of your chosen element. For example, if you have are attuned to the plane of air, your hair might gently blow in the wind, or if you are attuned to the plane of fire, your eyes might glow with fiery intensity. This choice will reflect the features you gain from this specialization."
+                      ]
+                  }    
+									{
+										"type": "entries",
+										"name": "Aegis Empowerment",
+										"entries": [
+											"When you take this archetype at 3rd level, you enhance your Aegis abilities.",
+                      "· Aegis of Shielding: When you activate your Aegis, you gain the following feature depending on your Elemental Attunment.",
+                      "Air: You gain resistance to lightning damage.",
+                      "Earth: Bludgeoning, slashing and piercing damage you take is reduced by 2. This increases to 3 at 7th level, and 4 at 15th level.",
+                      "Fire: You gain resistance to fire damage.",
+                      "Water: You gain resistance to cold damage.",
+                      "· Aegis of Assault: When you use your Aegis, your weapon attacks deals an additional 1d4 damage per your Elemental Attunement. When you reach certain levels in this class, the damage increases to 1d6 at 7th level and 1d8 at 15th level.",
+                      "Air: Lightning",
+                      "Earth: Bludgeoning",
+                      "Fire: Fire",
+                      "Water: Cold"
+                      ]
+                  }
+                  {
+                     "type": "entries",
+                     "name": "Archetype Spells"
+                     "entries": [
+                       "You gain archetype spells at the swordmage level listed below. They are always prepared for you, and do not count against your prepared spell amounts."
+											{
+												"type": "table",
+												"caption": "Elementalist Spells",
+												"colLabels": [
+													"Swordmage Level",
+													"Spell"
+												],
+												"colStyles": [
+													"col-3 text-center",
+													"col-9"
+												],
+												"rows": [
+													[
+														"3rd",
+														"{@spell absorb elements|xge}",
+                            "{@spell chromatic orb}"
+													],
+													[
+														"5th",
+														"{@spell enhance ability}",
+                            "{@spell misty step}"
+													],
+													[
+														"9th",
+														"{@spell elemental weapon}",
+                            "{@spell protection from energy}"
+													],
+													[
+														"13th",
+														"{@spell conjure minor elemental}",
+                            "{@spell elemental bane|xge}"
+													],
+													[
+														"17th",
+														"{@spell conjure elemental}",
+                            "{@spell destructive wave}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Elemental Studies",
+										"entries": [
+											"Starting at 3rd level, you can speak, read, and write {@language Primordial}. You have advantage on Intelligence (Investigation) checks to investigate elementals, as well as on Intelligence Checks to recall information about elementals and their planes of existence."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Planar Affinity",
+										"entries": [
+											"Starting at 7th level, you gain one of the following features depending on your Elemental Attunement. You can choose the same element you selected at 3rd level or a different one.",
+                      "Air: You gain a bonuus to Initiative rolls equal to your Intellligence Modifier.",
+                      "Earth: You gain 1 extra hit point per swordmage level.",
+                      "Fire: You can add your intelligence modifier to one damage roll of any spell you cast that deals fire damage.",
+                      "Water: You gain a swim speed equal to your movement speed and can breathe underwater."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Greater Planar Affinity",
+										"entries": [
+											"When you reach 15th level, you affinity to your chosen planar element grows stronger. You gain one of the followin features depending on your Elemental Attunement. You can choose the same element you selected at 3rd level or a different one.",
+                      "Air: You can move without provoking opportunity attacks and your movement speed increases by 10 ft.",
+                      "Earth: Anytime you damage a creature with a weapon attack, you can force them to make a Strength saving throw, and be knocked prone on a failed save.",
+                      "Fire: As a bonus action, you create an aura of flames around you in a 10 ft radius that lasts for 1 minute. Any creature that starts their turn in your aura takes fire damage equal to half your swordmage level (rounded down).",
+                      "Water: As a reaction upon taking damage, you can temporarily assume a watery form. You reduce the damage by 4d6 plus your Intelligence modifier and can move 30 ft. away without provoking attacks of opportunity."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Elemental Aspect",
+										"entries": [
+											"At 20th level, your arcane studies reach a peak as you become an aspect of your chosen element. You gain the following features depending on your Elemental Attunement. You can choose the same element you selected at 3rd level or a different one.",
+                      "Air: You gain a fly speed equal to your movement speed.",
+                      "Earth: You gain resistance to non-magical bludgeoning, piercing, and slashing damage.",
+                      "Fire: Your Aegis of Assault or spells that deal fire damage ignore fire resistance and treats fire immunity as resistance.",
+                      "Water: Critical hits against you become normal hits. You are also constantly under the effects of the freedom of movment spell."
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+        	{
+					"name": "Gaurdian",
+					"source": "Warlord and Swordmage",
+					"shortName": "Gaurdian",
+					"subclassFeatures": [
+						[
+							{
+                "Swordmages choosing this archetype focus on protecting others from harm through abjuration magic. Guardians normally serve as elite guards for monarchs or wandering swordsman defending the innocent.",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Aegis Empowerment",
+										"entries": [
+											"When you take this archetype at 3rd level, you enhance your Aegis abilities.",
+                      "· Aegis of Shielding: While this Aegis is active, when you or another creature you can see within 30 feet of you takes damage, you can use your reaction to reduce that damage equal to 2d4 plus your Intelligence modifier. When you reach certain levels in this class, the dice to reduce damage increases to 3d4 at 7th level and 4d4 at 15th level.",
+                      "· Aegis of Assault: While this Aegis is active, when another creature you can see within 30 feet of you gets hit by a melee attack, you can use your reaction to teleport to an unoccupied space adjacent to them. You can then make a weapon attack against the attacker. If you hit, you dea additional force damage equal to your Intelligence modifier."
+                      ]
+                  }
+                  {
+                     "type": "entries",
+                     "name": "Archetype Spells"
+                     "entries": [
+                       "You gain archetype spells at the swordmage level listed below. They are always prepared for you, and do not count against your prepared spell amounts."
+											{
+												"type": "table",
+												"caption": "Gaurdian Spells",
+												"colLabels": [
+													"Swordmage Level",
+													"Spell"
+												],
+												"colStyles": [
+													"col-3 text-center",
+													"col-9"
+												],
+												"rows": [
+													[
+														"3rd",
+														"{@spell ensnaring pull|WLaSW}",
+                            "{@spell sanctuary}"
+													],
+													[
+														"5th",
+														"{@spell enhance ability}",
+                            "{@spell warding bond}"
+													],
+													[
+														"9th",
+														"{@spell crudaser's mantle}",
+                            "{@spell dimensional vortex|WLaSW}"
+													],
+													[
+														"13th",
+														"{@spell banishment}",
+                            "{@spell stoneskin}"
+													],
+													[
+														"17th",
+														"{@spell hold monster}",
+                            "{@spell wall of force}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Vigilant Watch",
+										"entries": [
+											"At 3rd level, you can mark an area under your protection. You can cast the {@spell alarm} spell even if you haven't prepared it. You can use this feature a number of times equal to 1 + your Intelligence modifier. When you finish a Long Rest, you regain all expended uses."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Bulwarking Magic",
+										"entries": [
+											"Starting at 7th level, when you target a friendly creatue with a spell or Aegis ability, they gain temporary hit points equal to your Intelligence modifier. For Aegis of Assault, the creature you teleport to defend gains the temporary hit points."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Extended Ward",
+										"entries": [
+											"Beginning at 15th level, all friendly creature within 15 feet of you gain the benefit of your Spell Ward. At 17th level, the radius of this feature is 30 feet."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ultimate Protector",
+										"entries": [
+											"When you reach 20th level, you can spend an action to radiate abjuring magic around you for 1 minute. You gain resistance to all damage. When you targeting a friendly creature with a spell or Aegis ability, they can also gain this resistance. For Aegis of Assault, the creature you teleport to defend gains the resistance. All resistances granted to other creatures end when your resistance ends. You can't use this feature again until you finish a long rest."
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+       
+        	{
+					"name": "Inquisitor",
+					"source": "Warlord and Swordmage",
+					"shortName": "Inquisitor",
+					"subclassFeatures": [
+						[
+							{
+                "By choosing the Inquisitor archetype, you utiliize divination to seek out threats and abjuration magic to protect yourself from your prey. Inquisitor swordmages hunt down rogue mages, root out dark magic, and slay supernatural monsters.",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Aegis Empowerment",
+										"entries": [
+											"When you take this archetype at 3rd level, you enhance your Aegis abilities.",
+                      "· Aegis of Shielding: While this Aegis is active, if you make a saving throw against a magical effect, you gain a bonus to the saving throw equal to your Intelligence modifier.",
+                      "· Aegis of Assault: While this Aegis is active, when you use the Attack action or cast a spell, you can teleport up to 10 feet before or after the attack or spell to an unoccupied space you can see. You can only do this once per turn. At 7th level, the distance increases to 15 feet and at 15th level, the distance increases to 20 feet."
+                      ]
+                  }
+                  {
+                     "type": "entries",
+                     "name": "Archetype Spells"
+                     "entries": [
+                       "You gain archetype spells at the swordmage level listed below. They are always prepared for you, and do not count against your prepared spell amounts."
+											{
+												"type": "table",
+												"caption": "Inquisitor Spells",
+												"colLabels": [
+													"Swordmage Level",
+													"Spell"
+												],
+												"colStyles": [
+													"col-3 text-center",
+													"col-9"
+												],
+												"rows": [
+													[
+														"3rd",
+														"{@spell detect magic}",
+                            "{@spell protection from evil and good}"
+													],
+													[
+														"5th",
+														"{@spell detect thoughts}",
+                            "{@spell silence}"
+													],
+													[
+														"9th",
+														"{@spell counterspell}",
+                            "{@spell protection from energy}"
+													],
+													[
+														"13th",
+														"{@spell banishment}",
+                            "{@spell locate creature}"
+													],
+													[
+														"17th",
+														"{@spell banishing smite}",
+                            "{@spell scrying}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Eyes of the Inquisitor",
+										"entries": [
+											"At 3rd level, you can see magic near you to better aid in your hunt. As an action you can gain the effects of the {@spell detect magic} spell to sense the presence of magic within 60 feet of you until the end of your next turn. You can use this feature a number of times equal to 1 + your Intelligence modifier. When you finish a Long Rest, you regain all expended uses."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Arcane Protection",
+										"entries": [
+											"Starting at 7th level, your training steadies your mind against harmful magic. You have advantage against fear and charmed effects."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Magic Deflection",
+										"entries": [
+											"Beginning at 15th level, when a creature within 60 feet of you casts a spell targeting you and only you, you can use your reaction to reflect the spell. If the spell is 3rd level or lower, you automatically succeed, otherwise you must make an ability check using your Spellcasting Ability. The DC equals 10 + the spell's level. On a success, the creature's spell targets them using their own spell save DC. On a failure, the spell targets you as normal. You can do this a number of times per long rest equal to your Intelligence modifier (a minimum of once)."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Antimagic Gaze",
+										"entries": [
+											"At 20th level, you can use an action to create an area of antimagic, as in the antimagic field spell, in a 30 ft. cone for 1 minute. At the start of each of your turns, you decide which way the cone faces and whether the cone is active. The area works against your own spells, but not your magical equipment. You can't use this feature again until you finish a long rest."
+										]
+									}
+								]
+							}
+						]
+					]
+				} 
+        
+			],
+			"classSpells": [
+        "Acid Splash",
+        "Blade Ward",
+        {
+          "name": "Booming Blade",
+          "source": "SCAG"
+        },
+        "Chill Touch",
+        "Fire Bolt",
+        {
+        "name": "Freezing Blade",
+        "source": "WLaSM"
+        },
+        {
+        "name": "Frostbite",
+        "source": "XGE"
+        },
+        {
+        "name": "Green-flame Blade",
+        "source": "SCAG"
+        },
+        "Light",
+        {
+        "name": "Lightning Lure",
+        "source": "SCAG"
+        },
+        "Mage Hand",
+        "Mending",
+        "Message",
+        {
+          "name": "Mind Blade",
+          "source": "WLaSM"
+        },
+        "Poison Spray",
+        "Prestidigitation",
+        "Ray of Frost",
+        "Shocking Grasp",
+        {
+          "name": "Stone Blade",
+          "source": "WLaSM"
+        },
+        {
+        "name": "Swordburst",
+        "source": "SCAG"
+        },
+        {
+        "name": "Thunderclap",
+        "source": "XGE"
+        },
+        {
+        "name": "Vampiric Blade",
+        "source": "WLaSM"
+        },
+				{
+					"name": "Absorb elements",
+					"source": "XGE"
+				},
+        "Alarm",
+				"Burning Hands",
+				"Chromatic Orb",
+        "Comprehend Languages",
+				"Detect Magic",
+        {
+          "name": "Ensnaring Pull",
+          "source": "WLaSM"
+        },
+				"Expeditious Retreat",
+				"False Life",
+				"Feather Fall",
+				"Ice Knife",
+				"Identify",
+				"Jump",
+        "Longstrider",
+        "Mage Armor",
+				"Magic Missile",
+				"Protection from evil and good",
+        "Searing Smite",
+				"Shield",
+				"Thunderous Smite",
+				"Thunderwave",
+        "Warthful Smite",
+        {
+					"name": "Zephyr Strike",
+					"source": "XGE"
+				},
+				{
+					"name": "Aganazzar's scorcher",
+					"source": "XGE"
+				},
+				"Blindness/Deafness",
+				"Blur",
+        "Branding Smite",
+				"Darkness",
+				"Darkvision",
+        {
+					"name": "Earthbind",
+					"source": "XGE"
+				},
+				"Enlarge/reduce",
+        {
+					"name": "Far Strike",
+					"source": "WLaSM"
+				},
+				"Hold person",
+				"Invisibility",
+        {
+					"name": "Isolating Strike",
+					"source": "WLaSM"
+				},
+				"Levitate",
+				"Magic Weapon",
+				"Melf's Acid Arrow",
+				"Mirror Image",
+				"Misty Step",
+        {
+					"name": "Shadow Blade",
+					"source": "XGE"
+				},
+				"Shatter",
+        "Spider Climb",
+				{
+					"name": "Snilloc's snowball swarm",
+					"source": "XGE"
+				},
+				"Warding Wind",
+        {
+					"name": "Weapon Storm",
+					"source": "WLaSM"
+				},
+        "Blinding Smite",
+        "Blink",
+				"Counterspell",
+        {
+					"name": "Dimensional Charge",
+					"source": "WLaSM"
+				},
+        {
+					"name": "Dimensional Vortex",
+					"source": "WLaSM"
+				},
+				"Dispel Magic",
+				"Elemental Weapon",
+				"Fireball",
+				"Fly",
+				"Gaseous Form",
+				"Haste",
+				"Lightning Bolt",
+				"Magic Circle",
+				"Protection from energy",
+				"slow",
+				{
+					"name": "Thunder Step",
+					"source": "XGE"
+				},
+				"Vampiric touch",
+        "Banishment",
+        {
+					"name": "Bleeding Smite",
+					"source": "WLaSM"
+				},
+				"Blight",
+				"Dimension Door",
+				"Fire Shield",
+				"Greater Invisibility",
+				"Ice Storm",
+        "Polymorph",
+        "Staggering Smite",
+				"Stoneskin",
+        {
+					"name": "Storm Sphere",
+					"source": "XGE"
+				},
+        {
+					"name": "Watery Sphere",
+					"source": "XGE"
+				},
+        "Wall of Fire",
+				{
+					"name": "Vitriolic sphere",
+					"source": "XGE"
+				},
+				"Animate Objects",
+        "Banishing Smite",
+				"Cone of Cold",
+				"Cloudkill",
+        {
+					"name": "Paralyzing Strike",
+					"source": "WLaSM"
+				},
+				{
+					"name": "Far Step",
+					"source": "XGE"
+				},
+        "Hold Monster"
+				{
+					"name": "Steel wind strike",
+					"source": "XGE"
+				},
+				"Telekinesis",
+				"Teleportation circle"
+        {
+					"name": "Time warp Strike",
+					"source": "WLaSM"
+				},
+			]
+		}
+	]
+}
